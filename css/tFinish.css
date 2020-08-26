@@ -1,0 +1,97 @@
+/* ===== styles for main background divisions ===== */
+#dashboard {
+    padding-left: 10px;
+    padding-right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+    /* filter: blur(20px); */
+    color: #fff;
+}
+#mainOptions {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+}
+#profile {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+    /* filter: blur(20px); */
+}
+
+/* ===== styles for inside mainOptions ===== */
+#tech{
+    height: 25vh;
+    background-color: #4d0137;
+}
+#finish {
+    height: 50vh;
+    background-color: #ffffff;
+    padding-left: 0;
+}
+
+
+/* ====== styles for dashboard ===== */
+#dash {
+    padding-left: 10px;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    border-left: 3px solid #8e19a4;
+    background-color: rgba(201, 188, 188, 0.4);
+}
+#qu {
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(196, 189, 189);
+}
+.tmd {
+    padding-left: 15px;
+    /* margin-top: 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-left: -10px;
+    -webkit-transition: background-color 0.8s; /* Safari */
+    transition: background-color 0.8s;
+    font-weight: lighter;
+    color: #ddd;
+}
+.tmd:hover {
+    border-left: 3px solid #8e19a4;
+    background-color: rgba(201, 188, 188, 0.4);
+    -webkit-transition: background-color 0.8s; /* Safari */
+    transition: background-color 0.8s;
+    color: #fff;
+}
+
+/* ===== styles for mainOptions ===== */
+.imgInner {
+    padding-top: 2vh;
+    padding-left: 20px;
+    padding-top: 3vh;
+}
+
+#mainTechTitle {
+    font-weight: 800px;
+    color: #970b48; 
+    text-align: left;
+    font-size: 4.7em;
+    padding-left: 40px;
+}
+
+#thanks {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* ===== styles for profile ===== */
+/* ---------- NO NEED ----------- */

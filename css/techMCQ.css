@@ -1,0 +1,46 @@
+#mainQuestion {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 15px;
+    background-color: #fff;
+    height: 75vh;
+}
+
+#mainTech {
+    color: #d21556; 
+    font-weight: 800;
+    margin-bottom: 0;
+}
+#ObjectiveQ {
+    color: #d21556; 
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.rd{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sbmt {
+    margin-top: 30px;
+}
+.quizBTN {
+    margin-bottom: 5px;
+    margin-left: 32px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    border: 0;
+    background: #6053d9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #7c32cb , #3b7eea); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #7c32cb, #3b7eea); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #7c32cb, #3b7eea); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #7c32cb , #3b7eea); /* Standard syntax */
+}
+#nextBTN {
+    padding-left: 38px;
+    padding-right: 38px;
+}

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+  
+/** Thin */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+  
+/** Regular */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+  
+/** Medium */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: "San Francisco"   
+}
+  
+.background-image{
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    overflow: hidden;
+    background: url('../img/blurBkg.png');
+    background-size: cover;
+    /* filter: blur(4px); */
+    z-index: -1;
+    position: fixed;
+}
+ 
+#mainLogo{
+    margin-top: 20vh;
+    /* width: 200px; */
+}
+#mainText{
+    color: white;
+    margin-top: -15px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+/* CSS For input Box */
+.inputBox {
+    display: inline-block !important;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box !important;
+    padding: 0px 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border: none !important;
+    -webkit-border-radius: 12px !important;
+    border-radius: 12px !important;
+    /* font: normal normal bold 16px/normal Tahoma, Geneva, sans-serif; */
+    color: rgba(255,255,255,1) !important;
+    -o-text-overflow: ellipsis !important;
+    text-overflow: ellipsis !important;
+    background: rgb(125,125,125) !important;
+    -webkit-transition: all 400ms cubic-bezier(0.6, -0.28, 0.735, 0.04);
+    -moz-transition: all 400ms cubic-bezier(0.6, -0.28, 0.735, 0.04);
+    -o-transition: all 400ms cubic-bezier(0.6, -0.28, 0.735, 0.04);
+    transition: all 400ms cubic-bezier(0.6, -0.28, 0.735, 0.04) !important;
+  }
+
+  #circleNext{
+    /* border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px; */
+    
+    border: 2px solid rgb(170,161,162);
+    background-color: rgb(170,161,162);
+    /* border: 0px solid #000000; */
+    padding-left: -12px;
+    border-radius: 100px;
+  }
+
+  .next {
+    border-top: 1px solid #a1a1a1;
+    background: #a1a1a1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a1a1a1), to(#a1a1a1));
+    background: -webkit-linear-gradient(top, #a1a1a1, #a1a1a1);
+    background: -moz-linear-gradient(top, #a1a1a1, #a1a1a1);
+    background: -ms-linear-gradient(top, #a1a1a1, #a1a1a1);
+    background: -o-linear-gradient(top, #a1a1a1, #a1a1a1);
+    padding: 7px 14px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    /* -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0; */
+    /* box-shadow: rgba(0,0,0,1) 0 1px 0; */
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #000000;
+    font-size: 13px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 20px;
+    }
+ .next:hover {
+    border-top-color: #a1a1a1;
+    background: #a1a1a1;
+    color: #787878;
+    }
+ .next:active {
+    border-top-color: #919191;
+    background: #919191;
+    }

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="ADG: Apple Developers Group
+        is a free initiative to assist developers in higher education
+        institution (VIT), who intend to teach development for the
+        iPhone, iPad and iPod Touch.This student body allows
+        developers to create teams of up to 200 members who can
+        develop, test, debug and distribute applications via the
+        App Store giving them complete access to developer
+        tools, including iPhone SDK and
+        iPhone Dev Centre resources." />
+        <title>ADG Recruitments 2k19</title>
+        <link rel="shortcut icon" href="img/adg-logo.png">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/login.css">
+        <style>
+            .timer {
+              text-align: center;
+              font-size: 60px;
+              padding:0;
+              margin:0;
+            }
+            
+            .timer-container {
+                text-align:center;
+                
+                border: sienna 2px solid;
+                border-radius: 1vh;
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                color: burlywood;
+                margin: 0 1vw;
+                padding: 0% 1%;
+                
+            }
+
+            @media only screen and (max-width: 450px) {
+                #mdtext {
+                    display: none;
+                }
+            }    
+
+            @media only screen and (min-width: 451px) {
+                #smtext {
+                    display: none;
+                }
+            }
+
+            @media only screen and (max-width: 635) {
+                .br {
+                   display: block; 
+                }
+            }            
+            </style>
+    </head>
+    <body>  
+        <div class="background-image"></div>
+        <div class="container">
+            <!-- ADG Logo -->
+            <div class="row center" id="mainLogo">
+                <a href="window.html"><img class="responsive-img" src="img/adg-logo.png"></a>
+            </div>
+            <!-- Main Header Text -->
+            <div class="row center">
+                <div class="col s12 hide-on-small-and-down">
+                    <h2 id="mainText" class="hide-on-small">Apple Developers Group</h2>
+                </div>
+                <div id="mdtext">
+                    <h5 id="mainText" style="margin-top: 10px;">
+                    Pace up! The recruitments start in..
+                    </h5>
+                </div>
+                <div id="smtext">
+                    <h5 id="mainText" style="margin-top: 10px;">
+                    Pace up! 
+                    <br />
+                    The recruitments start in..
+                    </h5>
+                </div>
+            </div>
+            <div class="center" style="margin-top: 25px;">
+                <div class="container" id="loginForm">
+                    <div>
+                        <span class="br">
+                        <span class="timer-container"><p class="timer" id="days"></p><p>Days</p></span>
+                        <span class="timer-container"><p class="timer" id="hours"></p><p>Hours</p></span>
+                        </span>
+                        <span class="br">
+                        <span class="timer-container"><p class="timer" id="minutes"></p><p>Minutes</p></span>
+                        <span class="timer-container"><p class="timer" id="seconds"></p><p>Seconds</p></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related JS files --> 
+        <!-- Minified jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script>
+            
+            function convertCase() {
+                var reg = document.getElementById('regno');
+                reg.value = reg.value.toUpperCase();
+            }
+        </script>
+        <script src='js/login.js'></script>
+        <script src='js/main.js'></script>
+        <script>
+            var countDownDate = new Date("Dec 7, 2019 09:00:00").getTime();
+            
+            var x = setInterval(function() {
+            
+              var now = new Date().getTime();
+                
+              var distance = countDownDate - now;
+                
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              document.getElementById("days").innerHTML = "";
+              document.getElementById("days").innerHTML = days;
+              if(hours < 10)
+              {
+              document.getElementById("hours").innerHTML = "0";
+              document.getElementById("hours").innerHTML += hours;
+              }
+              else
+              document.getElementById("hours").innerHTML = hours;
+              if(minutes < 10)
+              {
+              document.getElementById("minutes").innerHTML = "0";
+              document.getElementById("minutes").innerHTML += minutes;
+              }
+              else
+              document.getElementById("minutes").innerHTML = minutes;
+              if(seconds < 10)
+              {
+              document.getElementById("seconds").innerHTML = "0";
+              document.getElementById("seconds").innerHTML += seconds;
+              }
+              else
+              document.getElementById("seconds").innerHTML = seconds;  
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementsByClassName("timer").style.visibility = "hidden";
+              }
+            }, 1000);
+            </script>
+            
+    </body>
+</html>

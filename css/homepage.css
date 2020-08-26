@@ -1,0 +1,126 @@
+/* ===== styles for main background divisions ===== */
+#dashboard {
+    padding-left: 10px;
+    padding-right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+    /* filter: blur(20px); */
+    color: #fff;
+}
+#mainOptions {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+}
+#profile {
+    padding-left: 0;
+    padding-right: 0;
+    
+    background-color: rgba(0,0,0,0.5);
+    height: 75vh;
+    word-wrap: break-word;
+    /* overflow-x: scroll; */
+    /* filter: blur(20px); */
+}
+
+/* ===== styles for inside mainOptions ===== */
+#tech{
+    height: 25vh;
+    background-color: #4d0137;
+}
+#management {
+    height: 25vh;
+    background-color: #fbf49f;
+}
+#design {
+    height: 25vh;
+    background-color: #565561;
+}
+
+/* ====== styles for dashboard ===== */
+#dash {
+    padding-left: 10px;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    border-left: 3px solid #8e19a4;
+    background-color: rgba(201, 188, 188, 0.4);
+}
+#qu {
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(196, 189, 189);
+}
+.tmd {
+    padding-left: 15px;
+    /* margin-top: 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-left: -10px;
+    -webkit-transition: background-color 0.8s; /* Safari */
+    transition: background-color 0.8s;
+    font-weight: lighter;
+    color: #ddd;
+}
+.tmd:hover {
+    border-left: 3px solid #8e19a4;
+    background-color: rgba(201, 188, 188, 0.4);
+    -webkit-transition: background-color 0.8s; /* Safari */
+    transition: background-color 0.8s;
+    color: #fff;
+}
+
+/* ===== styles for mainOptions ===== */
+.imgInner {
+    padding-top: 2vh;
+    padding-left: 20px;
+    padding-top: 3vh;
+}
+.quizBTN {
+    margin-left: 32px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border: 0;
+}
+#techBTN {
+    background: #6053d9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #7c32cb , #3b7eea); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #7c32cb, #3b7eea); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #7c32cb, #3b7eea); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #7c32cb , #3b7eea); /* Standard syntax */
+}
+#manBTN {
+    background: #dc723c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #cc3246 , #efb92f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cc3246, #efb92f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cc3246, #efb92f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cc3246 , #efb92f); /* Standard syntax */
+}
+#designBTN {
+    background: #d8305e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #cc3178 , #ec2e39); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cc3178, #ec2e39); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cc3178, #ec2e39); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cc3178 , #ec2e39); /* Standard syntax */
+}
+
+/* ===== styles for profile ===== */
+
+#logout {
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border: 0;
+}
